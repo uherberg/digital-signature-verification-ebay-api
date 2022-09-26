@@ -195,6 +195,6 @@ public class SignatureService {
         KeyPair keyPair = keypairService.loadExistingKeyPair();
         this.privateKey = keyPair.getPrivate();
         this.publicKey = keyPair.getPublic();
-        this.jwt = keypairService.getJWE(publicKey);
+        this.jwt = "<JWE comes here>";
     }
 }
